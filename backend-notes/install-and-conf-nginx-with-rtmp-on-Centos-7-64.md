@@ -78,7 +78,7 @@ Add rtmp{} Before http{};
 Add server in http{};
 
 	server {
-	    listen      8000;
+	    listen      8080;
     location /hls {
         # Serve HLS fragments
         types {
